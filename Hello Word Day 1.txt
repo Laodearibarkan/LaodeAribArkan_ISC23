@@ -1,0 +1,10 @@
+package day_1;
+
+public class Day_1 {
+
+    public static void main(String[] args) {
+//       First Day ISC >> Belajar Output
+        System.out.println("Hello Word"); 
+        System.out.println("Agar Silaturahmi Tidak Terputus Pinjam Dulu 100");
+    }
+}
