@@ -1,0 +1,27 @@
+package day_2_laodearibarkan;
+
+public class Day_2_LaodeAribArkan {
+
+    public static void main(String[] args) {
+       String nama = "Laode Arib Arkan";
+       char GD = 'A';
+       short tgllahir = 24;
+       int tahunlahir = 2005;
+       byte umur = 18;
+       double bb = 51;
+       long tinggibadan = 169;
+       float nohp = 081242386860f;
+       boolean pria = true;
+       
+        System.out.println("NAMA: "+nama);
+        System.out.println("GOLONGAN DARAH: "+GD);
+        System.out.println("TANGGAL LAHIR: "+tgllahir);
+        System.out.println("TAHUN LAHIR: "+tahunlahir);
+        System.out.println("UMUR: "+umur);
+        System.out.println("BERAT BADAN: "+bb);
+        System.out.println("TINGGI BADAN: "+tinggibadan);
+        System.out.println("No Hp: "+nohp);
+        System.out.println("JENIS KELAMIN PRIA: "+pria);
+    }
+    
+}
