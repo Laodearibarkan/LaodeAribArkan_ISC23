@@ -1,0 +1,28 @@
+package day3_laodearibarkan;
+
+public class Day3_LaodeAribArkan {
+
+    public static void main(String[] args) {
+      String nama = "Laode Arib Arkan";
+      Integer umur = 18;
+      Character inisial = 'L';
+      Byte bb = 51;
+      Short nohp = 0;
+      float tb = 169f;
+      long penghasilan = 10000000;
+      double gaji = 5000000;
+      Boolean banyakuang = false;
+      
+        System.out.println("Nama Saya                   :" + nama);
+        System.out.println("Umur Saya                   :" + umur);
+        System.out.println("Berinisial                  :" + inisial);
+        System.out.println("Berat Badan                 :" + bb);
+        System.out.println("No HP                       :" + nohp);
+        System.out.println("Tinggi Badan                :" + tb);
+        System.out.println("Penghasilan                 :" + penghasilan);
+        System.out.println("Gaji                        :" + gaji);
+        System.out.println("Apakah Saya Tidak Punya Uang ? " + banyakuang);
+      
+    }
+    
+}
