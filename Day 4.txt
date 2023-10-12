@@ -1,0 +1,31 @@
+package day4_aco;
+
+public class Day4_aco {
+
+    public static void main(String[] args) {
+      String nama = "Laode Arib Arkan";
+        System.out.println(nama);
+//        Deklarasi dan Inisialisai Variabel
+        int umur = 18;
+        String info = "Mahasiswa Informatika";
+        boolean benar = false;
+        
+        System.out.println("Umur saya sekarang masih : " + umur + " tahun");
+        System.out.println("Status saya sekarang adalah: " + info);
+        System.out.println("Uang saya sekarang banyak : " + benar);
+        
+//        Update Variabel
+        umur = umur + 10;
+        info = info + " dan sekarang sudah jadi programer";
+        benar = true;
+        
+        System.out.println("Setelah beberapa tahun, umur saya : " + umur + " tahun");
+        System.out.println("Setelah lulus, status saya menjadi : " + info);
+        System.out.println("Jadi Sekarang, uang saya banyak : " + benar);
+        
+//        Tambahan hehe
+        String tambahan = "Bismillah S.Kom ";
+        System.out.println(tambahan);
+    }
+    
+}
