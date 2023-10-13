@@ -1,0 +1,12 @@
+//     Jadi saya akan menghitung keliling sebuah bangun datar(persegi panjang) menggunakan variabel final 
+         final double P = 12.4;
+         final double L = 4.8;
+         
+//     Menghitung keliling persegi panjang menggunakan rumus 2 * (P+L)   
+         double keliling_persegi_panjang = 2 * (P + L);
+         
+//     Mencetak hasil dari perhitungan di atas    
+         System.out.println("Jadi keliling persegi panjang : " + keliling_persegi_panjang);
+    }
+    
+}
