@@ -1,0 +1,20 @@
+package day6_aco;
+
+public class Day6_Aco {
+
+    public static void main(String[] args) {
+       final long Biaya_Makan = 15000 * 30;
+       final long Bensin = 45000 * 4;
+       final long laundry = 20000 * 2;
+       final long uang_kas_kelas = 5000;
+       final long jajan = 10000;
+        
+       long total_pengeluaran = Biaya_Makan + Bensin + laundry + uang_kas_kelas + jajan;
+       
+        System.out.println("Total pengeluaran dalam satu bulan : ");
+        System.out.println("Rp." + total_pengeluaran);
+        
+                
+    }
+    
+}
