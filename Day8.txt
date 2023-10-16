@@ -1,0 +1,58 @@
+package day8_aco;
+
+public class Day8_aco {
+
+    public static void main(String[] args) {
+//      Jadi disini saya akan membuat sebuah program tantang aritmatika,penugasan,perbandingan, dan operator logika
+//      Operator Aritmatika
+        int a = 12;
+        int b = 5;
+        int penjumlahan = a + b;
+        int pengurangan = a - b;
+        int perkalian = a * b;
+        int pembagian = a / b;
+        int modulus = a % b;
+//      Modulus disini adalah cara untuk mendapatkan sisa dari pembagian
+
+        System.out.println("Hasil : " + penjumlahan);
+        System.out.println("Hasil : " + pengurangan);
+        System.out.println("Hasil : " + perkalian);
+        System.out.println("Hasil : " + pembagian);
+        System.out.println("Hasil : " + modulus);
+        
+//      Operator Penugasan  
+        float x = 15f;
+        x += 2; //menjumlahkan variabel x dengan 2(x + 2)
+        x -= 3; //mengurangkan variabel x dengan 3(x + 3)
+        x *= 4; //mengalikan veriabel x dengan 4(x + 4)
+        x /= 5; //membagi variabel x dengan 5(x + 4)
+        
+        System.out.println("Hasilnya : " + x);
+        
+//      Operator Perbandingan
+        int angka1 = 10;
+        int angka2 = 20;
+        
+        boolean sama_dengan = (angka1 == angka2);        
+        boolean tidak_sama_dengan = (angka1 != angka2);        
+        boolean besar_dari = (angka1 >= angka2);        
+        boolean kecil_dari = (angka1 <= angka2);
+
+        System.out.println("Hasil : " + sama_dengan);
+        System.out.println("Hasil : " + tidak_sama_dengan);
+        System.out.println("Hasil : " + besar_dari);
+        System.out.println("Hasil : " + kecil_dari);
+        
+//      Operator Logika
+        boolean benar = true;
+        boolean salah = false;
+        
+        boolean LogikaAND = benar && salah;
+        boolean LogikaNOT = !benar;
+        
+        System.out.println("Hasil : " + LogikaAND);
+        System.out.println("Hasil : " + LogikaNOT);
+        
+    }
+    
+}
