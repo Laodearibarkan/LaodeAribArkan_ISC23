@@ -1,0 +1,21 @@
+package day9_aco;
+
+import java.util.Scanner;
+
+public class Day9_Aco {
+
+    public static void main(String[] args) {
+        Scanner nilaiA = new Scanner(System.in);
+        System.out.print(" Masukkan Nilai : " );
+        int A =  nilaiA.nextInt();
+        
+        if ( A % 2 == 0 && A !=0){
+            System.out.println(A + " Adalah angka genap " );
+        } else if ( A % 2 !=0) {    
+            System.out.println(A + " Adalah angka ganjil " );       
+        } else {
+            System.out.println(A + " Bukan keduanya ");
+        }
+    }
+    
+}
