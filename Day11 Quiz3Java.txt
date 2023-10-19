@@ -1,0 +1,30 @@
+package day_11_quiz3.java;
+
+import java.util.Scanner;
+
+public class Day_11_Quiz3Java {
+
+    public static void main(String[] args) {
+        Scanner Aco = new Scanner(System.in);
+        
+        System.out.print("Masukkan nilai m : " );
+        int m = Aco.nextInt();
+        
+        System.out.print("Masukkan nilai n : " );
+        int n = Aco.nextInt();
+        
+        if (m < n){
+            int total = 0;
+         for (int a = m + 1; a < n; a++){
+             total += a;
+             System.out.print(a);
+             
+           if(a < n - 1){
+               System.out.print(" + ");  
+               
+           }  
+         }   
+            System.out.println(" = " + total);
+        } 
+        System.out.println();
+    }
