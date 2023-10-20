@@ -1,0 +1,24 @@
+package day12_aco;
+
+public class Day12_Aco {
+
+    public static void main(String[] args) {
+/*     Jadi saya akan membuat program menggunakan perulangan(for)
+
+       Contoh yang pertama adalah for up to */
+        System.out.println("For up to");
+       for (int a = 1; a < 10; a++){
+        System.out.print(a);
+       }
+//     Jadi ini akan menghasilkan output angka dari 1 sampai 9 
+        System.out.println("");
+        System.out.println("For down to");
+//     Contoh kedua adalah for down to 
+       for (int a = 10; a > 1; a--){
+        System.out.print(a);
+       }
+        System.out.println("");
+//     Jadi ini akan menghasilkan output angka dari 10 sampai 2 
+    }
+    
+}
