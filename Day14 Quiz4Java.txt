@@ -1,0 +1,45 @@
+package day_14_quiz4.java;
+
+import java.util.Scanner;
+
+public class Day_14_Quiz4Java {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Masukkan Kalimat : ");
+        String kalimat = input.nextLine();
+        String kalimatModifikasi = "";
+        
+        for (int a = 0; a < kalimat.length(); a++){
+           char huruf = kalimat.charAt(a);
+           
+           if (huruf == 'a'){
+               kalimatModifikasi += "apa";
+          }else if (huruf == 'A'){      
+               kalimatModifikasi += "Apa";     
+          }else if (huruf == 'i'){
+               kalimatModifikasi += "ipi";
+          }else if (huruf == 'I'){    
+               kalimatModifikasi += "Ipi";
+          }else if (huruf == 'u'){
+               kalimatModifikasi += "upu";
+          }else if (huruf == 'U'){    
+               kalimatModifikasi += "Upu";
+          }else if (huruf == 'e'){
+               kalimatModifikasi += "epe";
+          }else if (huruf == 'E'){    
+               kalimatModifikasi += "Epe";
+          }else if (huruf == 'o'){
+               kalimatModifikasi += "opo";
+          }else if (huruf == 'O'){    
+               kalimatModifikasi += "Opo";
+          }else {
+               kalimatModifikasi += huruf;
+          }
+        }
+        System.out.println("Kalimat Asli : " + kalimat);
+        System.out.println("Kalimat Modifikasi : " + kalimatModifikasi);
+    }
+    
+}
