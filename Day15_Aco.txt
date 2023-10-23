@@ -1,0 +1,20 @@
+package day15_aco;
+
+import java.util.Scanner;
+
+public class Day15_Aco {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a,b,c,d;
+        System.out.print("Gaji Pokok : ");
+        a = input.nextInt();
+        b = 55000;
+        System.out.print("Lama lembur : ");
+        c = input.nextInt();
+        b *= c;
+        d = a + b;
+        System.out.println("Total gaji bersih : " + d);
+    }
+    
+}
