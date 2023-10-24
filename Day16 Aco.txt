@@ -1,0 +1,35 @@
+package day16_aco;
+
+import java.util.Scanner;
+
+public class Day16_Aco {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+           System.out.print("Panjang tanah : " );
+        int panjangTanah = input.nextInt();
+           System.out.print("Lebar tanah : " );
+        int lebarTanah = input.nextInt();
+        
+        int LuasTanah = panjangTanah * lebarTanah;
+            System.out.println("Luas Tanah : " + LuasTanah + " m^2");
+        long HargaPermeter = 300000;
+        long HargaJual = LuasTanah * HargaPermeter;
+            System.out.println("Harga Jual : Rp " + HargaJual);
+            
+        if(HargaJual >= 50000000L && HargaJual < 100000000L ){
+            System.out.println("Pajak yang didapat 3%");
+            System.out.println("Harga Bersih : Rp " + (HargaJual - (HargaJual * 0.03)));
+        }else if (HargaJual >= 100000000L){
+            System.out.println("Pajak yang didapat 5%");
+            System.out.println("Harga Bersih : Rp " + (HargaJual - (HargaJual * 0.05)));
+        }else if (HargaJual < 50000000L){
+            System.out.println("Pajak yang didapat 1%");
+            System.out.println("Harga Bersih : Rp " + (HargaJual - (HargaJual * 0.01)));
+            
+      }
+            
+        
+    }
+    
+}
