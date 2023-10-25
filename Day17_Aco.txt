@@ -1,0 +1,25 @@
+package day17_aco;
+
+import java.util.Scanner;
+
+public class Day17_Aco {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Nilai Batas : ");
+        int nilai = input.nextInt();
+        int total = 0;
+        for (int i = 1; i <= nilai; i++) {
+            total += i;
+            System.out.print(i);
+            
+            if (i <= nilai - 1){
+                System.out.print("+");
+            }
+        }
+        System.out.println("=" + total);
+        
+    }
+        
+}
