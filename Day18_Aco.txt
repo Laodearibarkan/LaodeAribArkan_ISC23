@@ -1,0 +1,27 @@
+package day18_aco;
+
+import java.util.Scanner;
+
+public class Day18_Aco {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Masukkan Batasan Angka : ");
+        int a = input.nextInt();
+//      DISINI KITA DISURUH UNTUK MENGINPUT BATASAN ANGKA SESUAI YANG DIINGINKAN         
+        for (int i = 1; i <= a; i++){
+            System.out.print("Masukkan angka : ");
+            int b = input.nextInt();
+//          KEMUDIAN KITA AKAN MENGINPUT ANGKA HINGGA MENCAPAI BATASAN ANGKA YANG SEBELUMNYA DI INPUT            
+            if(b % 2 != 0){
+                System.out.println("Adalah angka ganjil"); 
+            }else {
+                System.out.println("Adalah angka genap");
+            }
+//          INI DIGUNAKAN UNTUK MENGETAHUI APAKAH ANGKA YANG DIMASUKKAN ADALAH ANGKA GANJIL/GENAP  
+        } 
+         
+    }
+    
+}
