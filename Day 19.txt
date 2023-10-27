@@ -1,0 +1,27 @@
+package day19_laode;
+
+import java.util.Scanner;
+
+public class Day19_Laode {
+
+    public static void main(String[] args) {
+      Scanner input =  new Scanner(System.in);
+        
+        System.out.println("Masukkan Angka : ");
+        int a = input.nextInt();
+        
+        if(a % 3 == 0 && a % 5 != 0){
+            System.out.println("Pride of 3"); 
+        }else if(a % 5 == 0 && a % 3 != 0) {
+            System.out.println("Pride of 5");
+        }else if(a % 3 == 0 && a % 5 == 0){
+            System.out.println("Master Class");
+        }
+      /*Ini adalah Program untuk menginput inputan berupa angka dengan ketentuan : 
+        1. Jika angka yang diinput habis dibagi 3 maka output akan mencetak pesan "Pride of 03"
+        2. Jika angka yang diiput habis dibagi 5 maka output akan mencetak pesan "Pride of 05"
+        3. Jika angka yang diinput habis dibagi 3 dan 5 maka output akan mencetak pesan "Master Class"
+        */ 
+    }
+    
+}
