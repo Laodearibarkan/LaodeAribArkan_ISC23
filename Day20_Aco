@@ -1,0 +1,23 @@
+package Day20;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Masukkan batas atas angka: ");
+        int batasAtas = input.nextInt();
+        
+        int jumlahAngkaDibagi3 = 0;
+        
+        for (int i = 1; i <= batasAtas; i++) {
+            if (i % 3 == 0) {
+                jumlahAngkaDibagi3++;
+            }
+        }
+        System.out.println("Jadi angka yang habis di bagi tiga ada : " + jumlahAngkaDibagi3 + " angka");
+    }
+    
+}
