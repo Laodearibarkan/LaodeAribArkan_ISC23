@@ -1,0 +1,26 @@
+package Day22;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Masukkan : ");
+        int a = input.nextInt();
+        System.out.print("Masukkan : ");
+        int b = input.nextInt();
+        
+        int c = a+b;
+        if(c%2 != 0){
+            c += 2;
+            System.out.print("Hasilnya +2 : " + c);
+        }else if(c % 2 == 0){
+            c += 1;
+            System.out.print("Hasilnya +1 : " + c);
+        }
+        
+    }
+    
+}
