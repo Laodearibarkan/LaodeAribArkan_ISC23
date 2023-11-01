@@ -1,0 +1,27 @@
+package Day24_ISC;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan angka: ");
+        int angka = scanner.nextInt();
+        
+
+        int sisa = angka % 2;
+
+        switch (sisa) {
+            case 0:
+                System.out.println(angka + " adalah angka genap.");
+                break;
+            case 1:
+                System.out.println(angka + " adalah angka ganjil.");
+                break;
+            default:
+                System.out.println(angka + " bukan bilangan bulat.");
+        }
+    }
+    
+}
