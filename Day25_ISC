@@ -1,0 +1,23 @@
+package Day25_ISC;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner Aco = new Scanner(System.in);
+        int awal,akhir;
+        System.out.print("Angka Awal \t: ");
+        awal = Aco.nextInt();
+        System.out.print("Angka Akhir \t: ");
+        akhir = Aco.nextInt();
+        
+        int a = awal;
+        
+        do{
+            System.out.print(a + " ");
+            a++;
+        }while(a <= akhir);
+    }
+    
+}
