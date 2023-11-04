@@ -1,0 +1,28 @@
+package day27_laodearib;
+
+import java.util.Scanner;
+
+public class Day27_LaodeArib {
+
+    public static void main(String[] args) {
+        int angka,total;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan angka : ");
+         angka = input.nextInt();
+         total = angka;
+        System.out.print(angka+"! = ");
+        for (int i = angka; i > 0; i--) {
+          System.out.print(i);   
+          if(i > 1){
+              System.out.print(" x ");
+          }  
+          if(angka != i){
+              total *= i;
+          }
+          
+        }
+        System.out.println("");
+        System.out.println("   = " +total);
+    }
+    
+}
