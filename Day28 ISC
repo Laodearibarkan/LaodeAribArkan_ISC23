@@ -1,0 +1,27 @@
+package Day28_ISC;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        int makul;
+        double rata,nilai,total=0;
+        
+        System.out.print("Jumlah Makul : ");
+        makul = input.nextInt();
+        
+        for(int i = 1; i <= makul; i++){
+            System.out.print("Makul ke "+i+" = ");
+        nilai = input.nextInt();
+        total += nilai;    
+            
+        }
+        rata = total/makul;
+        System.out.println("Total      = "+total);
+        System.out.println("Rata-rata  = "+rata);
+    }
+    
+}
