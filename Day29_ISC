@@ -1,0 +1,31 @@
+package Day29_ISC;
+
+import java.util.Scanner;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        int jml,angka,maks = 0,min = 100;
+        
+        System.out.print("Batas angka = ");
+        jml = input.nextInt();
+        
+        for(int a = 1; a <= jml; a++){
+           System.out.print("Angka ke "+a+" =");
+        angka = input.nextInt();
+        
+        if(angka > maks){
+            maks = angka;
+        }
+        if(angka < min){
+            min = angka;
+        }
+        }
+        System.out.println("Nilai Maks = "+maks);
+        System.out.println("Nilai Min  = "+min);
+        
+    }
+    
+}
