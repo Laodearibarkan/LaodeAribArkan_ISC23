@@ -1,0 +1,14 @@
+package Day33_ISC;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        int[] a = {2, 4, 0, 1, 0, 5};
+        int jml = a.length;
+        
+        for(int i = 0; i <= jml; i++){
+            System.out.print(a[i]+" ");
+        }
+    }
+    
+}
